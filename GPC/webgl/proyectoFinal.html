@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Plantilla para ThreeJS</title>
+    <style>
+        body {
+            background-color: white;
+            margin: 0px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container"></div>
+    <h1 id="info"
+        style="position: fixed; font-size: 800%; color: red; top: 25%; width: 100%; text-align: center; font-family: sans-serif;">
+    </h1>
+    <div style="position: fixed; color: white; bottom: 10px; width: 100%; text-align: center; font-family: sans-serif;">
+        <p>Controles: W,S,A,D para moverte por el laberinto </p> teclas de izq, der, arriba abajo para mover la camara,
+        espacio habilita orbit controls, R resetea
+    </div>
+
+
+    <!-- bibliotecas de apoyo -->
+    <script src="lib/three.min_r96.js"></script>
+    <script src="lib/threex.keyboardstate.js"></script>
+    <script src="lib/dat.gui.min.js"></script>
+
+    <script src="lib/coordinates.js"></script>
+    <script src="lib/OrbitControls.js"></script>
+    <script src="lib/FirstPersonControls.js"></script>
+    <script src="lib/OBJLoader.js"></script>
+    <!-- Aplicacion propia -->
+    <script src="threejs/proyectoFinal.js"></script>
+
+
+</body>
+
+</html>
